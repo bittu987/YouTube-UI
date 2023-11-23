@@ -84,7 +84,7 @@ i,p,hr,a {
     /* border: 2px solid red; */
     background-color: #f9f9f9;
     border-top: 1px solid #ddd;
-    
+    wrap: wrap;
 }
 .h2{
     padding: 10px;
