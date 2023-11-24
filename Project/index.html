@@ -4,9 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>You Tube Clone</title>
-    <link rel="stylesheet" href="/Project/style.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto','sans-serif';
+}
+.header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: white;
+    position: fixed;
+}
+i,p,hr,a {
+    color: rgb(96,96,96);
+    text-decoration: none;
+    font-size: 14px;
+}
+.left_header_part{
+    height: 40px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#youtube{
+    font-size: 47px;
+}
+.center_header_part{
+    width: 40% ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;    
+}
+.center_header_part input{
+    height: 35px;
+    width: 96%;
+    padding: 5px;
+    border: none;
+}
+.center_header_part i{
+    height: 35px;
+    width: auto;
+    background-color: #f9f9f9;
+    padding-top: 15px; 
+}
+.right_header_part{
+    display: flex;
+    gap: 9px;
+}
+.sidebar{
+    width: 15%;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top: 70px;
+    background-color: white;
+    position: fixed;
+}
+.sub_sidebar{
+    display: flex;
+    gap: 15px;
+    padding: 18px;
+    align-items:center;
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    text-decoration: none;
+}
+.sub_sidebar:hover{
+    background-color: #ddd;
+}
+.Vidio_Contents{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    margin-top: 70px;
+    margin-left: 15%;
+}
+.h2{
+    padding: 10px;
+    font-size: 20px;
+}
+.Main_container{
+    display: flex;
+}
+.Major_box{
+    height: auto;
+    width: 30%;
+    /* border: 1px solid red; */
+}
+.content{
+    display: flex;
+    gap: 10px;
+}
+.all_vidios_tab{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    padding-bottom: 30px;
+}
+    </style>
 </head>
 <body>
      <header class="header">
